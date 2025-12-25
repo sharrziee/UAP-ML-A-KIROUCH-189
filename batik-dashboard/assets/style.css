@@ -1,0 +1,73 @@
+/* ===== GLOBAL BACKGROUND ===== */
+.stApp {
+    background:
+        radial-gradient(1200px 800px at 15% 10%, rgba(88,101,242,0.35), transparent 60%),
+        radial-gradient(900px 600px at 85% 20%, rgba(168,85,247,0.25), transparent 55%),
+        linear-gradient(180deg, #070b14 0%, #05070f 100%);
+    color: #ffffff;
+}
+
+/* ===== HEADER ===== */
+.header-card {
+    background: linear-gradient(135deg, rgba(40,48,90,0.75), rgba(22,22,40,0.45));
+    border-radius: 26px;
+    padding: 28px 34px;
+    margin-bottom: 28px;
+    border: 1px solid rgba(255,255,255,0.12);
+}
+
+/* ===== GRID ===== */
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+    align-items: stretch;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: rgba(255,255,255,0.06);
+    border-radius: 22px;
+    padding: 26px;
+    border: 1px solid rgba(255,255,255,0.12);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+}
+
+.full-height {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== BUTTON ===== */
+.stButton > button {
+    background: linear-gradient(135deg, #6d5dfc, #8b5cf6);
+    border: none;
+    border-radius: 14px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.stButton > button:hover {
+    opacity: 0.92;
+}
+
+/* ===== RESULT BOX ===== */
+.result-box {
+    background: linear-gradient(135deg, #6d5dfc, #8b5cf6);
+    padding: 18px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+/* ===== CONFIDENCE ===== */
+.confidence {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
