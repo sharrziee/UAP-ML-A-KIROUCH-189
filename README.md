@@ -99,27 +99,30 @@ Aplikasi web dikembangkan menggunakan **Streamlit** dengan fitur:
 ## ▶️ Menjalankan Aplikasi Secara Lokal
 
 ### 1️⃣ Clone Repository
-
-**git clone https://github.com/sharrziee/UAP-ML-A-KIROUCH-189.git**
-
+```
+git clone https://github.com/sharrziee/UAP-ML-A-KIROUCH-189.git
+```
 ---
 
 ## 2️⃣ Masuk ke Direktori Project
-
-**cd batik-dashboard**
-
+```
+cd batik-dashboard
+```
 ---
 
 ## 3️⃣ Install Dependensi
 
-**pip install streamlit**
-
+```
+pip install streamlit
+```
 Jika tersedia file requirements.txt:
-
-**pip install -r requirements.txt**
+```
+pip install -r requirements.txt
+```
 
 ---
 
 ## 4️⃣ Menjalankan Aplikasi Streamlit
-
-**python -m streamlit run app.py**
+```
+python -m streamlit run app.py
+```
