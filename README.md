@@ -1,10 +1,6 @@
 # UAP Machine Learning
 ## Batik Motif Classification using CNN & Transfer Learning
 
-Repository ini dibuat untuk memenuhi **Ujian Akhir Praktikum (UAP)**  
-Mata Kuliah **Pembelajaran Mesin**  
-Program Studi **Informatika**
-
 ---
 
 ## 📌 Deskripsi Proyek
